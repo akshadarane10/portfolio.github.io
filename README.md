@@ -1,5 +1,12 @@
 # 👋 Hi, I'm Akshada Rane  
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/akshadarane10/portfolio.github.io/main/image/photo.jpg" 
+       alt="Akshada Rane" 
+       width="160" 
+       style="border-radius:50%; box-shadow: 0px 4px 10px rgba(0,0,0,0.2);">
+</p>
+
 📍 Washington, DC | Open to Relocation  
 📧 akshadarane10@gmail.com | 📱 +1 (771) 242-4425  
 🔗 [LinkedIn](#) | [GitHub](#)  
