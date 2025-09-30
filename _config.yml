@@ -4,3 +4,7 @@ plugins:
 
 title: Akshada Rane
 description: "Turning Data into Insights"
+
+# Custom fields
+profile_image: "https://github.com/akshadarane10/portfolio.github.io/blob/main/image/photo.jpg"
+summary: "Data Analytics Professional | SQL, Python, Tableau, Power BI | Turning complex data into actionable business insights."
