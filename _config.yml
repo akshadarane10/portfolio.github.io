@@ -3,8 +3,20 @@ plugins:
   - jekyll-remote-theme
 
 title: Akshada Rane
-description:  |
-  <p align="left">
-    <img src="https://raw.githubusercontent.com/akshadarane10/portfolio.github.io/main/image/photo.jpg" alt="Akshada Rane" width="100" style="border-radius:50%;">
-  </p>
-  Data Analytics Professional | SQL, Python, Tableau, Power BI
+description: |
+  <div style="display:flex; align-items:center; gap:20px; text-align:left;">
+    <img src="https://raw.githubusercontent.com/akshadarane10/portfolio.github.io/main/image/photo.jpg" 
+         alt="Akshada Rane" 
+         width="120" 
+         style="border-radius:50%; box-shadow: 0px 4px 8px rgba(0,0,0,0.15);">
+    <div>
+      <p style="margin:0; font-size:16px;">
+        <strong>Data Analytics & Science Professional</strong> with expertise in 
+        <strong>SQL, Python, Tableau, Power BI, and Cloud Platforms</strong>.  
+        Skilled at transforming raw data into insights that power smarter decisions, 
+        predictive models, and scalable data solutions.  
+        Passionate about bridging the gap between <em>data engineering and Science </em> and 
+        <em>business strategy</em>.
+      </p>
+    </div>
+  </div>
