@@ -3,5 +3,8 @@ plugins:
   - jekyll-remote-theme
 
 title: Akshada Rane
-description: "Data Analytics Professional | SQL, Python, Tableau, Power BI | Turning complex data into actionable business insights"
-logo: "/photo.jpg"
+description:  |
+  <p align="center">
+    <img src="/photo.jpg" alt="Akshada Rane" width="100" style="border-radius:50%;">
+  </p>
+  Data Analytics Professional | SQL, Python, Tableau, Power BI
