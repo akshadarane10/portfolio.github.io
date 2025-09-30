@@ -4,5 +4,4 @@ plugins:
 
 title: Akshada Rane
 description: "Data Analytics Professional | SQL, Python, Tableau, Power BI | Turning complex data into actionable business insights"
-
-profile_image: "https://raw.githubusercontent.com/akshadarane10/portfolio.github.io/main/photo.jpg"
+logo: "/photo.jpg"
