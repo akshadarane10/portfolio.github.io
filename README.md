@@ -1,12 +1,3 @@
-# 👋 Hi, I'm Akshada Rane  
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/akshadarane10/portfolio.github.io/main/image/photo.jpg" 
-       alt="Akshada Rane" 
-       width="160" 
-       style="border-radius:50%; box-shadow: 0px 4px 10px rgba(0,0,0,0.2);">
-</p>
-
 📍 Washington, DC | Open to Relocation  
 📧 akshadarane10@gmail.com | 📱 +1 (771) 242-4425  
 🔗 [LinkedIn](#) | [GitHub](#)  
@@ -26,10 +17,32 @@ I enjoy solving business problems through **data-driven insights**, predictive m
 
 ## 🛠️ Skills  
 
+## 🛠️ Skills  
+
 **Languages & Tools:**  
-- SQL | Python | R | SAS | PySpark | ABAP  
-- AWS (S3, Glue, Redshift, Athena, Lambda, CloudFormation) | Azure ML  
-- Power BI | Tableau | Qlik Sense | Excel (Advanced)  
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="30" height="30"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sql/sql-original.svg" alt="SQL" width="30" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R" width="30" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sas/sas-original.svg" alt="SAS" width="30" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pyspark/pyspark-original.svg" alt="PySpark" width="30" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/abap/abap-original.svg" alt="ABAP" width="30" height="30"/>
+</p>
+
+**Cloud Platforms:**  
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS" width="30" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure ML" width="30" height="30"/>
+</p>
+
+**BI & Visualization Tools:**  
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg" alt="Power BI" width="30" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tableau/tableau-original.svg" alt="Tableau" width="30" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qlik/qlik-original.svg" alt="Qlik Sense" width="30" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/excel/excel-original.svg" alt="Excel" width="30" height="30"/>
+</p>
+
 
 **Core Competencies:**  
 - Data Engineering & Warehousing  
