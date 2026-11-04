@@ -1,42 +1,30 @@
-# Portfolio update — setup notes
+# Akshada Rane — portfolio
 
-This update keeps the existing GitHub Pages Cayman remote theme and the blue-to-green gradient identity.
+The redesigned portfolio is published from the `main` branch of this repository.
 
-## Files included
-- `README.md` — portfolio page content and sections
-- `_config.yml` — Cayman theme and hero section
-- `assets/css/style.scss` — responsive styling, fixed navigation and light colour palette
-- `assets/js/portfolio.js` — project filters and contact-form behavior
-- `assets/projects/` — project preview images sourced from the supplied project archives/reports
-- `photo.jpg`, `image/photo.jpg` — original profile images retained
+Website: https://akshadarane10.github.io/portfolio.github.io/
 
-## Before publishing
+## What's included
 
-### 1. Add your resume PDF
-The navigation currently uses a **Request Resume** email link because an actual resume PDF was not included with the website files. To make it a direct download:
+- A blue-green gradient hero with a bold name and tagline, profile photo, education, focus areas, and contact details.
+- A solid, opaque sticky navigation bar.
+- A boxed About Me section with concise personal and professional highlights.
+- A five-card Technical Toolkit with technology badges.
+- Text-based project cards with category filters and GitHub links. Dashboard and report preview images are intentionally omitted.
+- A detailed reverse-chronological professional experience timeline.
+- An education timeline and clickable certification cards.
+- A Beyond the Data section with placeholders for personal painting and hiking photographs.
+- A contact section with a static-site email form.
 
-1. Add your final resume PDF to `assets/`.
-2. Name it `Akshada_Rane_Resume.pdf`.
-3. In `_config.yml`, change both `mailto:` resume links to:
-   `/assets/Akshada_Rane_Resume.pdf`
-4. Add `download` to the corresponding `<a>` element if you want the browser to download it.
+## Notes for future updates
 
-### 2. Verify certifications
-The original repository README listed:
-- AWS Certified Cloud Practitioner (CLF-C02)
-- Microsoft Power BI Data Analyst (PL-300)
+1. **Resume:** No resume PDF was supplied. The Resume navigation link currently opens an email request. To make it a direct download, add a PDF such as `assets/Akshada_Rane_Resume.pdf` and update the Resume link in `_includes/portfolio/hero.html`.
+2. **Personal gallery:** Replace the painting and hiking placeholders in `_includes/portfolio/beyond.html` with your own photographs when ready.
+3. **Education date:** No date was provided for the University of Mumbai degree, so none is displayed.
+4. **Contact form:** GitHub Pages is static. The form validates the fields and opens the visitor's email application with a pre-filled message to `akshadarane10@gmail.com`; it does not store submissions.
+5. **LinkedIn:** A LinkedIn profile URL was not supplied, so no link has been added.
+6. **Final details:** Confirm the Goa Institute of Management degree title and any experience wording against your official records when convenient.
 
-The new page carries those entries forward. Confirm that the certification names/status/dates are accurate and add credential URLs before publishing.
+## How to update
 
-### 3. LinkedIn
-A LinkedIn profile URL was not supplied in the website files. Add your actual profile URL to the contact section when ready.
-
-### 4. Contact form behavior
-GitHub Pages is a static hosting service and does not process/store form submissions by itself. The included form validates the fields and opens the visitor's default email app with a pre-filled message addressed to `akshadarane10@gmail.com`. It does not send or store anything automatically.
-
-If you want a fully hosted form that submits without opening the visitor's email app, connect a form service such as Formspree and replace the form handler/action with its endpoint.
-
-## Uploading to GitHub
-Copy the contents of this folder into the root of your existing `portfolio.github.io` repository, preserving the folder structure. Commit and push to `main`. Do not upload the outer ZIP file itself.
-
-GitHub Pages will rebuild the site after the commit. Check the **Actions** tab if the website does not update after a few minutes.
+Make changes in the repository, review them, and commit them to `main`. GitHub Pages will rebuild the site after changes are pushed.
