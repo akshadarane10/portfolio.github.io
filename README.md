@@ -1,116 +1,152 @@
-📍 Washington, DC | Open to Relocation  
-📧 akshadarane10@gmail.com | 📱 +1 (771) 242-4425  
-🔗 [LinkedIn](#) | [GitHub](#)  
+<div class="portfolio-intro">
+  <p class="eyebrow">DATA ANALYTICS · BUSINESS INTELLIGENCE · AI / MACHINE LEARNING</p>
+  <h2>Turning data into decisions.</h2>
+  <p>I build analytical solutions that connect technical work with real business questions — from interactive dashboards and customer segmentation to predictive modeling and natural language processing.</p>
+  <div class="quick-links">
+    <a href="#featured-projects">Explore projects ↓</a>
+    <a href="mailto:akshadarane10@gmail.com">Get in touch ↗</a>
+  </div>
+</div>
 
 ---
 
-## 🚀 About Me  
-I am a **Data Scientist & Analyst** with a strong background in **Big Data Analytics, Cloud Platforms, and Business Intelligence**.  
-I enjoy solving business problems through **data-driven insights**, predictive modeling, and building end-to-end data solutions.  
+## About
 
-- 🎓 Master's in **Big Data Analytics** (Goa Institute of Management, India)  
-- 💻 Skilled in **SQL, Python, Power BI, Tableau, AWS, and Azure**  
-- 📊 Experienced in **data pipelines, predictive modeling, and dashboarding**  
-- 🧑‍💼 4+ years of professional experience in **analytics, consulting, and data engineering**  
+I am pursuing a **Master of Engineering in Computer Science (Data Analytics & AI) at Virginia Tech**. My experience spans analytics, business analysis, data engineering, and applied data science.
 
----
+I enjoy working through the full analytics lifecycle: understanding the problem, preparing and exploring data, building models or dashboards, and communicating findings in a way that supports better decisions.
 
-## 🛠️ Skills  
+**Currently interested in:** Data Analyst · Business Intelligence Analyst · Data Scientist · Data Engineer · AI / ML opportunities
 
-## 🛠️ Skills  
+## Technical toolkit
 
-**Languages & Tools:**  
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="30" height="30"/> 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sql/sql-original.svg" alt="SQL" width="30" height="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R" width="30" height="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sas/sas-original.svg" alt="SAS" width="30" height="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pyspark/pyspark-original.svg" alt="PySpark" width="30" height="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/abap/abap-original.svg" alt="ABAP" width="30" height="30"/>
-</p>
-
-**Cloud Platforms:**  
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS" width="30" height="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure ML" width="30" height="30"/>
-</p>
-
-**BI & Visualization Tools:**  
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg" alt="Power BI" width="30" height="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tableau/tableau-original.svg" alt="Tableau" width="30" height="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qlik/qlik-original.svg" alt="Qlik Sense" width="30" height="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/excel/excel-original.svg" alt="Excel" width="30" height="30"/>
-</p>
-
-
-**Core Competencies:**  
-- Data Engineering & Warehousing  
-- Machine Learning & Predictive Modeling  
-- Business Intelligence & Dashboard Development  
-- Process Optimization & Automation  
-- Stakeholder Collaboration & Documentation (BRD, SOPs, Functional Specs)  
+<div class="skill-groups">
+  <div class="skill-group"><h3>Programming &amp; data</h3><p>Python · SQL · R · Pandas · NumPy · PySpark</p></div>
+  <div class="skill-group"><h3>Analytics &amp; visualization</h3><p>Power BI · DAX · Tableau · Excel · Data storytelling</p></div>
+  <div class="skill-group"><h3>Cloud &amp; data engineering</h3><p>AWS · Azure · ETL · Data pipelines · Data warehousing</p></div>
+  <div class="skill-group"><h3>AI &amp; machine learning</h3><p>Scikit-learn · Predictive modeling · NLP · Recommendation systems · Clustering</p></div>
+</div>
 
 ---
 
-## 💼 Experience  
+## Featured projects
+<p class="section-note">A selection of hands-on projects across business intelligence, predictive analytics, customer analytics, and NLP. Select a project to explore its code and methodology.</p>
 
-### **Data Science Trainee** | Springboard, USA _(Oct 2024 – Present)_  
-- Building ML projects including a **hybrid recommendation engine** and **healthcare premium prediction**.  
-- Focused on applying advanced ML algorithms to real-world datasets.  
+<div class="project-grid">
+  <article class="project-card project-featured">
+    <img src="{{ '/assets/projects/hospital-dashboard.png' | relative_url }}" alt="Healthcare provider Power BI dashboard">
+    <div class="project-content">
+      <span class="project-type">BUSINESS INTELLIGENCE · POWER BI</span>
+      <h3>Healthcare Provider Dashboard</h3>
+      <p>Interactive dashboard for exploring provider billing, insurance coverage, treatment costs, procedures, diagnoses, and geographic patterns.</p>
+      <p class="project-tags">Power BI · DAX · KPI reporting · Data visualization</p>
+      <a href="https://github.com/akshadarane10/Hospital-cost-analyses-Dashboard">View project on GitHub ↗</a>
+    </div>
+  </article>
 
-### **Data Engineer (Global Data Analytics)** | Kellogg’s (Kellanova) _(Jun 2023 – Sept 2023)_  
-- Built **event-driven pipelines** with AWS (Glue, Lambda, Athena, Redshift, S3).  
-- Designed **SCD2 transformations** with PySpark & SQL, improving tracking accuracy by 25%.  
-- Created **Power BI dashboards** for supply chain insights across 4+ regions.  
+  <article class="project-card">
+    <div class="project-content">
+      <span class="project-type">CUSTOMER ANALYTICS</span>
+      <h3>Retail Customer Segmentation (RFM)</h3>
+      <p>Transforms transaction-level data into customer-level insights using recency, frequency, and monetary value, with statistical, score-based, and business-rule segmentation.</p>
+      <p class="project-tags">RFM · EDA · Clustering · Customer segmentation</p>
+      <a href="https://github.com/akshadarane10/RFM-Analysis">View project on GitHub ↗</a>
+    </div>
+  </article>
 
-### **Data Scientist (Credit Analytics Innovation)** | HDFC Bank _(Apr 2023 – Jun 2023)_  
-- Conducted **EDA & modeling** with Python and Azure ML for KYC compliance.  
-- Improved loan campaign models with **NLP & SQL**, boosting accuracy by 30%.  
-- Automated **customer intent detection**, reducing manual effort by 40%.  
+  <article class="project-card">
+    <div class="project-content">
+      <span class="project-type">FINANCIAL ANALYTICS · POWER BI</span>
+      <h3>Personal Finance Dashboard</h3>
+      <p>Tracks income, expenses, available balance, debt, and monthly trends, with DAX measures and interactive navigation to support budgeting decisions.</p>
+      <p class="project-tags">Power BI · DAX · KPI design · Financial reporting</p>
+      <a href="https://github.com/akshadarane10/Personal-Finance-Power-BI-Dashboard">View project on GitHub ↗</a>
+    </div>
+  </article>
 
-### **Senior Analyst (SAP CRM Consultant)** | LTIMindtree _(Aug 2019 – May 2022)_  
-- Debugged **ABAP/SQL queries**, cutting issue volume by 20%.  
-- Built **daily Excel/SQL reports** to track incident trends and SLAs.  
-- Delivered **15+ enhancements** (requirement gathering → deployment).  
-- Led **UAT testing** for 15+ releases, ensuring compliance and accuracy.  
+  <article class="project-card">
+    <div class="project-content">
+      <span class="project-type">PREDICTIVE ANALYTICS · MACHINE LEARNING</span>
+      <h3>Healthcare Insurance Premium Prediction</h3>
+      <p>Explores how demographic and lifestyle factors relate to insurance premiums and develops a machine learning workflow for premium estimation.</p>
+      <p class="project-tags">Python · EDA · Feature engineering · Regression</p>
+      <a href="https://github.com/akshadarane10/Healthcare-Insurance-Prediction">View project on GitHub ↗</a>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="project-content">
+      <span class="project-type">RECOMMENDER SYSTEMS</span>
+      <h3>Movie Recommendation System</h3>
+      <p>Uses MovieLens ratings and movie attributes to explore personalized recommendations through collaborative and content-based approaches.</p>
+      <p class="project-tags">Python · MovieLens 100K · Recommendation systems</p>
+      <a href="https://github.com/akshadarane10/Movie-Recommendation-System">View project on GitHub ↗</a>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="project-content">
+      <span class="project-type">PEOPLE ANALYTICS · TABLEAU · AZURE ML</span>
+      <h3>Compensation &amp; Benefits Analysis</h3>
+      <p>Investigates compensation differences across San Francisco government roles, departments, job families, and unions, using hypotheses and visual analysis.</p>
+      <p class="project-tags">Tableau · Azure ML Studio · EDA · Workforce analytics</p>
+      <a href="https://github.com/akshadarane10/Compensation-Analysis-Azure-Tableau-Report">View project on GitHub ↗</a>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="project-content">
+      <span class="project-type">NLP · TEXT CLASSIFICATION</span>
+      <h3>Twitter Aggression Analysis</h3>
+      <p>Classifies social media text into overtly aggressive, covertly aggressive, and non-aggressive categories using preprocessing and machine learning.</p>
+      <p class="project-tags">Python · NLP · Text preprocessing · Naive Bayes</p>
+      <a href="https://github.com/akshadarane10/Twitter-Aggression-Analysis">View project on GitHub ↗</a>
+    </div>
+  </article>
+</div>
 
 ---
 
-## 📂 Projects  
+## Experience
 
-### 🔹 **Movie Recommendation System**  
-Hybrid engine (collaborative + content-based) using **MovieLens 100k** dataset.  
-
-### 🔹 **Healthcare Insurance Premium Prediction**  
-Predicted insurance premiums based on **demographic & lifestyle data** using ML models.  
-
-### 🔹 **Compensation & Benefits Analysis (Tableau)**  
-Analyzed 4,500+ employee records in San Francisco; uncovered trends in overtime & benefits.  
-
-### 🔹 **Text Classification (Aggression in Tweets)**  
-Built **Naïve Bayes classifier** for aggression detection in Twitter data.  
-
-### 🔹 **BNY Mellon Client Service Simulation (Forage)**  
-Managed **client liabilities, ECRM updates, and request escalations**.  
-
-### 🔹 **Accenture Analytics & Visualization Simulation (Forage)**  
-Analyzed **7 datasets** and delivered insights with **dashboards and presentations**.  
-
----
-
-## 🎓 Education & Certifications  
-
-- **AWS Certified Cloud Practitioner (CLF-C02)** – Aug 2025  
-- **Data Science Bootcamp (Springboard, US)** – Oct 2024 – Jun 2025  
-- **Microsoft Power BI Data Analyst (PL-300)** – Aug 2024  
-- **Master’s in Big Data Analytics** – Goa Institute of Management, India (2022 – 2024)  
-- **Bachelor of Engineering (Information Technology)** – University of Mumbai, India (2015 – 2019)  
+<div class="experience-list">
+  <div class="experience-item">
+    <div><strong>Marketing Data Analyst Intern</strong><span>Guidon Designs</span></div>
+    <p>Analyzed CRM data across business segments, identified data quality issues, and explored reporting opportunities using Deltek Vantagepoint and Power BI.</p>
+  </div>
+  <div class="experience-item">
+    <div><strong>Data Engineer Intern</strong><span>Kellogg’s (Kellanova)</span></div>
+    <p>Worked with AWS data services and SQL/PySpark transformations to support data pipelines, historical tracking, and analytics reporting.</p>
+  </div>
+  <div class="experience-item">
+    <div><strong>Data Scientist Intern</strong><span>HDFC Bank</span></div>
+    <p>Applied Python, SQL, and NLP to customer and transaction data, supporting analytical modeling and automation.</p>
+  </div>
+  <div class="experience-item">
+    <div><strong>Business Analyst</strong><span>LTIMindtree</span></div>
+    <p>Worked on enterprise digital systems and CRM-related analysis, requirements, reporting, and process improvements.</p>
+  </div>
+</div>
 
 ---
 
-## 📬 Let’s Connect  
-- 💼 Open to **Data Scientist | Data Analyst | Analytics Engineer** roles  
-- 🌎 Authorized to work in the US  
-- 🤝 Open to collaborations on **data science and analytics projects**  
+## Education
 
+**Master of Engineering — Computer Science (Data Analytics &amp; AI)**  
+Virginia Tech
+
+**Bachelor of Engineering — Information Technology**  
+University of Mumbai
+
+---
+
+## Let’s connect
+
+I’m interested in opportunities where data, technology, and business problem-solving come together.
+
+<div class="contact-panel">
+  <a href="mailto:akshadarane10@gmail.com">akshadarane10@gmail.com</a>
+  <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+  <a href="https://github.com/akshadarane10">GitHub</a>
+  <span>Washington, DC · Open to relocation</span>
+</div>
