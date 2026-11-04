@@ -1,8 +1,10 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 title: Akshada Rane
 url: https://akshadarane10.github.io
 baseurl: /portfolio.github.io
 description: Turning Data into Decisions.
 show_downloads: false
+sass:
+  sass_dir: assets/css
