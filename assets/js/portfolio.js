@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Contact form: GitHub Pages is static, so prepare an email instead of storing submissions.
+  // GitHub Pages is static: prepare a message in the visitor's email application.
   const form = document.getElementById("contact-form");
   if (form) {
     form.addEventListener("submit", function (event) {
@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Keep the footer year current.
   const year = document.getElementById("current-year");
   if (year) year.textContent = new Date().getFullYear();
 });

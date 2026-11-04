@@ -1,33 +1,8 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-  - jekyll-remote-theme
-
+- jekyll-remote-theme
 title: Akshada Rane
-description: |
-  <nav class="site-nav" aria-label="Main navigation">
-    <a class="nav-brand" href="#top">Akshada Rane</a>
-    <div class="nav-links">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a class="nav-cta" href="mailto:akshadarane10@gmail.com?subject=Resume%20Request">Resume</a>
-      <a class="nav-cta nav-cta-filled" href="#contact">Contact</a>
-    </div>
-  </nav>
-  <div id="top" class="hero-profile">
-    <img src="https://raw.githubusercontent.com/akshadarane10/portfolio.github.io/main/photo.jpg" alt="Portrait of Akshada Rane" class="hero-photo">
-    <div class="hero-summary">
-      <p class="hero-kicker">DATA ANALYTICS · BUSINESS INTELLIGENCE · AI</p>
-      <p><strong>MEng Computer Science (Data Analytics &amp; AI), Virginia Tech</strong></p>
-      <p>I turn complex data into clear business insights, practical analytical solutions, and intelligent applications.</p>
-      <p class="hero-tools">SQL · Python · Power BI · Tableau · AWS · Azure · Machine Learning · NLP</p>
-      <div class="hero-actions">
-        <a class="hero-button" href="#projects">Explore Projects</a>
-        <a class="hero-button hero-button-outline" href="mailto:akshadarane10@gmail.com?subject=Resume%20Request">Request Resume</a>
-      </div>
-    </div>
-  </div>
-
+url: https://akshadarane10.github.io
+baseurl: /portfolio.github.io
+description: Turning Data into Decisions.
 show_downloads: false

@@ -1,0 +1,26 @@
+/* Projects */
+.project-filters { display: flex; flex-wrap: wrap; gap: .55rem; margin: 1.15rem 0 1.25rem; }
+.filter-button { appearance: none; border: 1px solid #cbdde7; background: #fff; color: #426477; border-radius: 999px; padding: .55rem .95rem; font: inherit; font-size: .86rem; font-weight: 700; cursor: pointer; transition: background .18s ease, border-color .18s ease, color .18s ease, transform .18s ease; }
+.filter-button:hover { background: #edf5f9; border-color: #9fc1d3; transform: translateY(-1px); }
+.filter-button.is-active { color: #fff; background: #155799; border-color: #155799; }
+.filter-button:focus-visible, a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid #8dc7df; outline-offset: 2px; }
+.project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; align-items: stretch; }
+.project-card { display: flex; min-width: 0; background: #fff; border: 1px solid #e0e9ef; border-radius: 15px; box-shadow: 0 4px 15px rgba(25,55,80,.045); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.project-card:hover { transform: translateY(-3px); border-color: #c4dce7; box-shadow: 0 10px 26px rgba(25,55,80,.09); }
+.project-card[hidden] { display: none !important; }
+.project-content { display: flex; flex-direction: column; align-items: flex-start; width: 100%; padding: 1.25rem 1.3rem 1.25rem; }
+.project-topline { display: flex; align-items: center; gap: .7rem; margin-bottom: .55rem; min-height: 42px; }
+.project-icon { width: 42px; height: 42px; border: 1px solid #dbe9ef; background: #edf5f9; color: #2679a5; border-radius: 12px; }
+.project-icon svg { width: 21px; height: 21px; }
+.project-icon-teal { color: #21866d; background: #eff8f4; border-color: #dcefe6; }
+.project-icon-lavender { color: #706ca8; background: #f2f1fa; border-color: #e4e2f1; }
+.project-icon-rose { color: #956487; background: #f8f0f6; border-color: #eedfeb; }
+.project-type { color: #3980a2; font-size: .68rem; font-weight: 850; letter-spacing: .085em; line-height: 1.4; }
+.project-content h3 { color: #285b79; font-size: 1.13rem; font-weight: 800; line-height: 1.35; margin: .18rem 0 .45rem; }
+.project-content > p { color: #5d6f7d; font-size: .92rem; line-height: 1.6; margin: .2rem 0 .9rem; }
+.project-content .project-tags { margin-top: auto; padding-top: .2rem; gap: .4rem; }
+.project-tags span { padding: .27rem .55rem; font-size: .75rem; background: #f6f9fb; }
+.project-link { display: inline-block; color: #176c9b !important; font-weight: 750; font-size: .88rem; text-decoration: none !important; margin-top: 1rem; }
+.project-link:hover { text-decoration: underline !important; }
+.no-projects { color: var(--muted); padding: 1rem; background: var(--pale); border-radius: 8px; }
+
