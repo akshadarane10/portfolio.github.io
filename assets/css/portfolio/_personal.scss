@@ -1,4 +1,4 @@
-/* Beyond the data – original photos displayed without cropping */
+/* Beyond the data – tighter, image-led cards */
 .beyond-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .beyond-card {
   overflow: hidden;
@@ -11,34 +11,60 @@
 }
 .beyond-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
 .beyond-photo {
+  position: relative;
+  isolation: isolate;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 250px;
-  padding: .6rem;
-  background: #f7fafb;
+  height: 330px;
+  min-height: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #f1f6f8;
   border-bottom: 1px solid #e1eaf0;
 }
 .beyond-photo img {
   display: block;
   width: 100%;
-  height: 290px;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
   object-position: center;
+  transition: transform .35s ease;
 }
-.photo-pending { color: #718795; font-size: .85rem; font-weight: 650; text-align: center; padding: 2rem 1rem; }
+.beyond-card:hover .beyond-photo img { transform: scale(1.025); }
+
+/* Keep the full painting collage visible; use a soft, blurred copy to fill the sides. */
+.beyond-painting-card .beyond-photo::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -12px;
+  background-image: var(--beyond-image);
+  background-position: center;
+  background-size: cover;
+  filter: blur(14px);
+  opacity: .32;
+}
+.beyond-painting-card .beyond-photo img {
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: .45rem;
+  box-sizing: border-box;
+}
 .beyond-content { padding: 1.05rem 1.15rem 1.2rem; }
 .beyond-content h3 { color: #285b79; font-size: 1rem; font-weight: 800; margin: 0 0 .35rem; }
 .beyond-content p { color: #617684; font-size: .89rem; line-height: 1.55; margin: 0; }
 .instagram-link {
   display: inline-block;
   margin-top: .65rem;
-  color: #a34f77;
+  color: #214f70;
   font-size: .84rem;
   font-weight: 750;
   text-decoration: none;
 }
-.instagram-link:hover { text-decoration: underline; }
+.instagram-link:hover { color: #176c9b; text-decoration: underline; }
 
 /* Contact and footer */
 .contact-section { background: #f4f8fb; border: 1px solid #e1eaf0; border-radius: 17px; padding: 1.6rem; }
