@@ -1,4 +1,4 @@
-/* Beyond the data – tighter, image-led cards */
+/* Beyond the data – tighter photo cards with a full-image presentation */
 .beyond-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .beyond-card {
   overflow: hidden;
@@ -16,43 +16,37 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 330px;
+  height: 320px;
   min-height: 0;
   padding: 0;
   overflow: hidden;
-  background: #f1f6f8;
+  background: #edf3f6;
   border-bottom: 1px solid #e1eaf0;
 }
-.beyond-photo img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  transition: transform .35s ease;
-}
-.beyond-card:hover .beyond-photo img { transform: scale(1.025); }
-
-/* Keep the full painting collage visible; use a soft, blurred copy to fill the sides. */
-.beyond-painting-card .beyond-photo::before {
+.beyond-photo::before {
   content: "";
   position: absolute;
   z-index: -1;
-  inset: -12px;
+  inset: -16px;
   background-image: var(--beyond-image);
   background-position: center;
   background-size: cover;
-  filter: blur(14px);
-  opacity: .32;
+  filter: blur(16px) saturate(.8);
+  opacity: .42;
+  transform: scale(1.06);
 }
-.beyond-painting-card .beyond-photo img {
+.beyond-photo img {
+  display: block;
   width: auto;
   max-width: 100%;
   height: 100%;
   object-fit: contain;
-  padding: .45rem;
+  object-position: center;
+  padding: .3rem;
   box-sizing: border-box;
+  transition: transform .35s ease;
 }
+.beyond-card:hover .beyond-photo img { transform: scale(1.025); }
 .beyond-content { padding: 1.05rem 1.15rem 1.2rem; }
 .beyond-content h3 { color: #285b79; font-size: 1rem; font-weight: 800; margin: 0 0 .35rem; }
 .beyond-content p { color: #617684; font-size: .89rem; line-height: 1.55; margin: 0; }
