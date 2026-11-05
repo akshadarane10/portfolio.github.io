@@ -4,9 +4,9 @@
 
 {% include portfolio/skills.html %}
 
-{% include portfolio/projects.html %}
-
 {% include portfolio/experience.html %}
+
+{% include portfolio/projects.html %}
 
 {% include portfolio/education.html %}
 
