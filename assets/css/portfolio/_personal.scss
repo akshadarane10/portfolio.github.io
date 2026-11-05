@@ -26,7 +26,7 @@
 .beyond-photo::before {
   content: "";
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   inset: -16px;
   background-image: var(--beyond-image);
   background-position: center;
@@ -36,6 +36,8 @@
   transform: scale(1.06);
 }
 .beyond-photo img {
+  position: relative;
+  z-index: 1;
   display: block;
   width: auto;
   max-width: 100%;
